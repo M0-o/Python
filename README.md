@@ -4,7 +4,7 @@
 
 This project provides a function that formats arithmetic expressions (addition and subtraction) in a neat arrangement. It is designed to handle up to five problems at a time, ensuring correct spacing and alignment.
 
-**Note:** My implementation does not use any predefined string formatting functions. Readers are free to develop the functionality in their own way.
+**Note:** My implementation does not use any predefined string formatting functions. 
 
 ## Functionality
 
@@ -13,14 +13,6 @@ This project provides a function that formats arithmetic expressions (addition a
 - Ensures numbers have no more than four digits and include only digits.
 - Arranges the problems into aligned columns.
 - Supports an optional flag to display the results.
-
-## Steps to implement
-
-1. Parse each problem into operands and operator.
-2. Check for errors (e.g., invalid operator, too many digits).
-3. Use the length of each operand to determine spacing.
-4. Build the formatted string for the top row, operator row, and dashes.
-5. If requested, compute and include the result row.
 
 ## Usage
 
